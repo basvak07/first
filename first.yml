@@ -8,3 +8,6 @@ hooks:
 beforeinstall:
 - location: scripts/remove.sh
   runas: root
+ApplicationStart:
+- location: scripts/start.sh
+  runas: root
